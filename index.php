@@ -1,12 +1,4 @@
 <?php include('includes/header.php') ?>
-<?php
-if (empty($_SERVER['HTTPS']) || $_SERVER['HTTPS'] === "off") {
-  $location = 'https://' . $_SERVER['HTTP_HOST'] . $_SERVER['REQUEST_URI'];
-  header('HTTP/1.1 301 Moved Permanently');
-  header('Location: ' . $location);
-  exit;
-}
-?>
 <title>Home :: Promatex Paint</title>
 <section class="w3l-main-slider" id="home">
   <!-- main-slider -->

@@ -1,17 +1,10 @@
 <?php include('includes/header.php') ?>
-<?php
-if (empty($_SERVER['HTTPS']) || $_SERVER['HTTPS'] === "off") {
-  $location = 'https://' . $_SERVER['HTTP_HOST'] . $_SERVER['REQUEST_URI'];
-  header('HTTP/1.1 301 Moved Permanently');
-  header('Location: ' . $location);
-  exit;
-}
-?>
+
 <title>Services :: Promatex Paint</title>
 <section class="w3l-service-breadcrum">
   <div class="breadcrum-bg">
     <div class="container py-5">
-      <p><a href="index.php">Home</a> &nbsp; / &nbsp; Services</p>
+      <p><a href="/">Home</a> &nbsp; / &nbsp; Services</p>
       <h2 class="my-3">Our Services</h2>
       <p>Nulla dolorem perferendis inventore! posuere cubilia Curae; Nunc non risus in justo convallis feugiat. consectetur adipisicing elit.</p>
     </div>

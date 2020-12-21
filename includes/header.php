@@ -26,9 +26,9 @@ Author URL: http://w3layouts.com
 <section class="w3l-bootstrap-header">
   <nav class="navbar navbar-expand-lg navbar-light py-lg-3 py-2">
     <div class="container">
-      <a class="navbar-brand" href="index.php"><span class="fa fa-paint-brush"> -</span> Promatex Paint</a>
+      <a class="navbar-brand" href="index"><span class="fa fa-paint-brush"> -</span> Promatex Paint</a>
       <!-- if logo is image enable this   
-    <a class="navbar-brand" href="#index.php">
+    <a class="navbar-brand" href="#index">
         <img src="image-path" alt="Your logo" title="Your logo" style="height:35px;" />
     </a> -->
       <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent"
@@ -39,16 +39,16 @@ Author URL: http://w3layouts.com
       <div class="collapse navbar-collapse" id="navbarSupportedContent">
         <ul class="navbar-nav mx-auto">
           <li class="nav-item">
-            <a class="nav-link" href="index.php">Home</a>
+            <a class="nav-link" href="/">Home</a>
           </li>
           <li class="nav-item">
-            <a class="nav-link" href="about.php">About</a>
+            <a class="nav-link" href="about">About</a>
           </li>
           <li class="nav-item">
-            <a class="nav-link" href="services.php">Services</a>
+            <a class="nav-link" href="services">Services</a>
           </li>
           <li class="nav-item">
-            <a class="nav-link" href="contact.php">Contact</a>
+            <a class="nav-link" href="contact">Contact</a>
           </li>
         </ul>
         <div class="main-social-head">
